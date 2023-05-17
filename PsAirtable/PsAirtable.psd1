@@ -30,7 +30,7 @@ CompanyName = 'Cogniza, Inc.'
 Copyright = '(c) Cogniza, Inc. All rights reserved.'
 
 # Description of the functionality provided by this module
-# Description = ''
+Description = "PowerShell module that wraps Airtable's REST API."
 
 # Minimum version of the PowerShell engine required by this module
 # PowerShellVersion = ''
@@ -70,7 +70,7 @@ Copyright = '(c) Cogniza, Inc. All rights reserved.'
 
 # Functions to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no functions to export.
 FunctionsToExport = @(
-    'Get-AirtableTableRow','Set-AirtableTableRow'
+    'Get-AirtableTableRow','Set-AirtableTableRow','New-AirtableTableRow'
     'New-AirtableTableRowAttachment'
 )
 
